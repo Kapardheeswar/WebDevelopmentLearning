@@ -1,0 +1,17 @@
+#playerButtons{
+    display: flex;
+}
+#buttonOne{
+    flex-grow: 1;
+}
+#buttonTwo{
+    flex-grow: 1;
+    color: white;
+}
+#buttonThree{
+    flex-grow: 1;
+}
+#playCount{
+    border: 1px solid black;
+    border-radius: 10px;
+}

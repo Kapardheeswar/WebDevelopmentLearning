@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marathon Registration Form</title>
+</head>
+<body>
+  <h1>Race Registration!</h1>
+  <form action="/marathonForms">
+    <p>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required min="5">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName">
+    </p>
+      <p>
+          <label>Select a Race: </label>
+      </p>
+      <input type="radio" name="raceType" id="fullRun5k" value="fullRun5k">
+      <label for="fullRun5k">Full Run 5k</label><br>
+      <input type="radio" name="raceType" id="halfMarathon" value="halfMarathon">
+      <label for="halfMarathon">Half Marathon</label><br>
+      <input type="radio" name="raceType" id="fullMarathon" value="fullMarathon">
+      <label for="fullMarathon">Full Marathon</label><br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+      <label for="password">Password</label>
+      <input type="password" name="passWord" id="password" minlength="8" required><br>
+      <label for="age">Select Age Group</label>
+      <select name="ageGroup" id="age">
+          <option value="under 18">under 18</option>
+          <option value="19to50">19 to 50</option>
+          <option value="51to75">51 to 75</option>
+          <option value=">75">greater than 75</option>
+      </select><br>
+      <button>Register</button>
+  </form>
+</body>
+</html>
+
+<!--http://localhost:52243/marathonForms?firstName=cwa&lastName=acwa&raceType=halfMarathon&email=acwa%40Fwfa&passWord=awfweaawfawfaw&ageGroup=under+18-->

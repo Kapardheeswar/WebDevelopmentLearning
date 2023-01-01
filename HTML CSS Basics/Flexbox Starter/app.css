@@ -1,0 +1,73 @@
+/*body {*/
+/*    font-family: 'Open Sans', sans-serif;*/
+/*}*/
+/*h1 {*/
+/*    text-align: center;*/
+/*}*/
+/*section {*/
+/*    !*background-color: #003049;*!*/
+/*    width: 90%;*/
+/*    !*height: 800px;*!*/
+/*    margin: 0 auto;*/
+/*    !*border: 5px solid #003049;*!*/
+/*    display: flex;*/
+/*    !*Flex direction is always along main axis (You know about these from flutter)*!*/
+/*    flex-direction: column;*/
+/*    !*We can even reverse the main axis direction from (left to right)->(right to left)*/
+/*      or from (top to bottom)->(bottom to top)*!*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    !*flex-direction: column-reverse;*!*/
+/*    !*Justify Content also use main axis to align content*!*/
+/*    !*justify-content: flex-start;*!*/
+/*    !*justify-content: space-evenly;*!*/
+/*    !*Flex wrap make sures element has correct height and width and adjust according to the*/
+/*    start direction of cross-axis*!*/
+/*    flex-wrap: wrap;*/
+/*    !*align-items & content is similar to justify-content where instead of main-axis it uses cross-axis as start reference*!*/
+/*    !*align-items: flex-end;*!*/
+/*    align-items: baseline;*/
+/*    !*align-content: space-evenly;*!*/
+/*}*/
+/*section div{*/
+/*    height: 100px ;*/
+/*    !*width: 100px ;*!*/
+/*    min-width: 50px;*/
+/*    !*flex-basis is initial length along main-axis which needs to be added*!*/
+/*    flex-basis: 100px;*/
+/*    !*transition: 1s;*!*/
+/*    !*flex-grow: 1;*!*/
+/*}*/
+/*!*div:nth-of-type(3){*!*/
+/*!*    !*Align-self aligns an element along cross-axis*!*!*/
+/*!*    align-self: flex-end;*!*/
+/*!*}*!*/
+/*!*div:nth-of-type(2){*!*/
+/*!*    align-self: center;*!*/
+/*!*}*!*/
+/*!*div:nth-of-type(1){*!*/
+/*!*    flex-grow: 1;*!*/
+/*!*}*!*/
+/*!*div:nth-of-type(5):hover{*!*/
+/*!*    flex-grow: 1;*!*/
+/*!*}*!*/
+/*div:nth-of-type(5){*/
+/*    flex-shrink: 0;*/
+/*}*/
+
+main{
+    width: 80%;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+}
+main .sidebar{
+    background: chocolate;
+    margin: 2px;
+    flex: 1 2 50px;
+}
+main .mainContent{
+    background: cornflowerblue;
+    margin: 3px;
+    flex: 2 1 100px;
+}

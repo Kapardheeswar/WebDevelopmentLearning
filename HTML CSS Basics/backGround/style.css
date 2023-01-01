@@ -1,0 +1,16 @@
+/*noinspection CssInvalidPropertyValue*/
+section{
+    width: 80%;
+    height: 500px;
+    background-color: chocolate;
+    margin: 0 auto;
+    /*background-image: url("https://images2.alphacoders.com/199/thumbbig-19902.webp");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: top;*/
+    background:url("https://images2.alphacoders.com/199/thumbbig-19902.webp") center/60% no-repeat, blueviolet ;
+}
+h1{
+    font-size: 25px;
+    color: chocolate;
+}

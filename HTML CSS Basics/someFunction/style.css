@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f1de;
+}
+
+h1, h2 {
+    color: #3d405b;
+}
+
+button {
+    background-color: #f2cc8f;
+}
+
+#signUp {
+    color: #f4f1de;
+    background-color: #e07a5f;
+}
+
+span {
+    color: #81b29a;
+}
+
+.tag {
+    color: #e07a5f;
+    font-size: 18px;
+}
+
+ul a {
+    color: #81b29a;
+    text-decoration: none;
+}
+
+p + button {
+    background-color: #fcbf49;
+}
+
+p + button {
+    background-color: #fcbf49;
+    font-size: 20px;
+    color: #003049;
+}
+
+ul > a {
+    color: #d62828;
+}
+a[href*="www.google.com"]{
+    text-decoration: underline;
+}
+input[type="text"]{
+    background-color: #eae2b7;
+}
+button:hover{
+    background-color: #d62828 !important;
+    color: #eae2b7 ;
+}
+ul>a:hover{
+    color: #e07a5f;
+}
+button:active{
+    background-color: #81b29a !important;
+}
+.type:nth-of-type(2n-1){
+    background-color: #f2cc8f;
+}
+h2::first-letter{
+    font-size: 40px;
+}
+::selection{
+    background-color: #fcbf49;
+}
+::placeholder{
+    color: chocolate;
+}
+input{
+    color: chocolate;
+}

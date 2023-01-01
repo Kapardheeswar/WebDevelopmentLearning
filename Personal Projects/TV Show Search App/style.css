@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 5px dotted teal;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+}
+img{
+    margin-right: 20px;
+    flex-grow: 1;
+}
+span{
+    margin-right: 20px;
+    flex-grow: 1;
+}
+div:last-child(p){
+    flex-grow: 1;
+}

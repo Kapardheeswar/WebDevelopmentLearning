@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Demo</title>
+</head>
+<body>
+<h1>Forms Demo</h1>
+<form action="/Test">
+  <p>
+    <label for="userName">Enter the UserName : </label>
+    <input type="text" placeholder="userName" id="userName" name="userName">
+  </p>
+  <p>
+    <label for="passWord">Enter the password : </label>
+    <input type="password" placeholder="passWord" id="passWord" name="passWord">
+  </p>
+  <p>
+    <label for="color">Pick the Color : </label>
+    <input type="color" id="color" name="color">
+  </p>
+  <p>
+    <label for="date">Pick a Date : </label>
+    <input type="date" id="date" name="date">
+  </p>
+  <p>
+    <label for="number">Choose a number : </label>
+    <input type="number" placeholder="Enter a number" id="number" name="number">
+  </p>
+  <p>
+    <label>Choose Week : <input type="week"></label>
+  </p>
+  <button type="submit">Submit Details</button>
+  <input type="submit" value="button">
+</form>
+<h2>Searching Youtube</h2>
+<form action="https://www.youtube.com/results">
+  <input type="text" name="search_query" required>
+  <button>Search Youtube</button>
+</form>
+<h2>Searching Google</h2>
+<form action="https://www.google.com/search">
+  <input type="text" name="q">
+  <input type="submit" value="Search Google">
+</form>
+<!--Check Boxes-->
+<form action="/goodies">
+  <input type="checkbox" name="agree" id="1">
+  <label for="1">I agree to everything</label>
+  <p>
+    <label for="Male">Male<input type="radio" name="Gender" id="Male" value="male"></label>
+    <label for="Female">Female<input type="radio" name="Gender" id="Female" value="female" checked></label>
+  </p>
+  <button>Submit</button>
+</form>
+<hr>
+<form action="/year_of_study">
+  <label for="year"><select name="year" id="year">
+    <option value="">--Please Select a year--</option>
+    <option value="1">1st year</option>
+    <option value="2">2nd year</option>
+    <option value="3">3rd year</option>
+    <option value="4">4th year</option>
+  </select></label>
+  <button>Submit year of study</button>
+</form>
+<form action="/brightness">
+  <label for="bright">Choose brightness : </label>
+  <input type="range" id="bright" name="bright_ness" min="20" max="150">
+  <button>Submit Brightness</button>
+</form>
+<form action="/description">
+  <label for="desc">
+    Tell Us About YourSelf???
+  </label><br>
+  <textarea name="Description" id="desc" cols="33" rows="10" placeholder="Type Something Here"></textarea>
+  <button>Submit description</button>
+</form>
+</body>
+</html>

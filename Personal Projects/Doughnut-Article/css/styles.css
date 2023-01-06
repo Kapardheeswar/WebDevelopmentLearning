@@ -1,0 +1,72 @@
+/* ===============================
+   Author: {KAPARDHEESWAR}
+   Date:   {25-12-2022}
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Kapardheeswar
+
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:				#d17f38
+   Yellow:				#e8c04f
+   Brown:				#4b2707
+   =============================== */
+
+/* General */
+body{
+	background: #f2f3ee url("../images/bg-tile.gif") top left repeat;
+	color: #4b2707;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.container{
+	width: 924px;
+	margin: 0 auto;
+	padding: 30px 24px;
+}
+/* Typography */
+
+
+
+/* Header */
+
+
+
+/* Hero */
+
+
+
+/* The Whole Story */
+
+
+
+/* News & Events */
+
+
+
+/* Footer */
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
